@@ -1,11 +1,12 @@
-# Relatório Completo: Predição de Aprovação de Empréstimo
+# Predição de Aprovação de Empréstimo
 
 ## 1. Contextualização do Projeto
 
 ### Objetivo
 O objetivo deste projeto é desenvolver um modelo de machine learning capaz de prever a aprovação de empréstimos com base em dados históricos de clientes. O modelo deve auxiliar na tomada de decisão automática, identificando perfis de risco e aprovando candidatos qualificados.
 
-### Dataset: Emprestimos_2025.csv
+### Dataset 
+Encontrado no Kaggle em [Realistic Loan Approval Dataset](https://www.kaggle.com/datasets/parthpatel2130/realistic-loan-approval-dataset-us-and-canada).
 O dataset contém 50.000 registros e 20 colunas, cobrindo dados demográficos, financeiros e de comportamento de crédito.
 
 #### Dicionário de Dados
@@ -94,4 +95,3 @@ Abaixo estão as métricas obtidas no conjunto de teste para os modelos treinado
 
 O modelo **XGBoost** foi selecionado como o melhor modelo e salvo em `resultados/modelo_final.pkl`. Ele apresentou o melhor equilíbrio entre todas as métricas, superando ligeiramente o Gradient Boosting e Random Forest.
 
-O projeto foi concluído com sucesso, atendendo e superando os requisitos de performance estabelecidos.
